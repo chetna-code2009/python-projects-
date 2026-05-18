@@ -14,7 +14,7 @@ A modular collection of reusable Python functions for common computational tasks
 | `greatest_number(a, b, c)` | Returns the largest of three input integers | Conditional statements (`if-elif-else`), comparison operators |
 **Planned additions:**  prime number checker, factorial function, palindrome checker
 
-### 2. `temperature_app.ipynb` — Interactive Temperature Converter
+### 2. `temperature_converter.ipynb` — Interactive Temperature Converter
 A standalone utility application that provides an interactive interface for temperature conversion.
 
 **Features:**
