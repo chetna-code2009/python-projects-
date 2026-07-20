@@ -26,7 +26,7 @@ A stateful, terminal-based simulation engine that creates a live user-versus-com
 
 * **Architectural Purpose:** Emulates real-world application cycles where the system must handle unpredictable user inputs while keeping track of score statistics in real time.
 * **Core Engineering Concepts:** Pseudo-randomization via `random.choice()`, un-bounded iterative loops (`while True`), local mutation for score tracking, and explicit break state conditions.
-* **Interviewer Takeaway (Clean Code Practices):**
+* ** (Clean Code Practices):**
   * **Defensive Input Sanitization:** Utilizes `.strip().lower()` to gracefully normalize human inputs, mitigating issues caused by trailing spaces or unexpected capitalization.
   * **Guard Clauses:** Includes explicit verification arrays (`if guess not in ["head", "tail"]`) to filter out invalid entries early, preventing corrupted runtime states without breaking the loop execution.
   * **Encapsulation:** Keeps score statistics locally scoped within the active frame, preventing global variable pollution and ensuring the function remains highly modular and easily testable.
