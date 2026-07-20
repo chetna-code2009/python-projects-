@@ -46,6 +46,43 @@ A standalone utility application that provides an interactive interface for temp
 **Career Goal:** Building foundational skills toward a career in **Artificial Intelligence and Machine Learning**
 
 **Why this matters:** Every function I write here — from a temperature converter to a calculator — is deliberate practice in problem decomposition, logic building, and code organization. These fundamentals scale directly to larger AI/ML systems where clean data pipelines and modular functions are critical.
+# Advanced Python Calculator
+
+A terminal-based Python calculator that supports continuous calculations, decimal inputs, percentage operations, and memory storage to chain equations together.
+
+## 🚀 Features
+
+*   **Continuous Loop**: Keep calculating without restarting the program.
+*   **Memory Storage**: Option to use your last result as the starting number for the next math problem.
+*   **Percentage Support (`%`)**: Easily calculate percentages (e.g., finding 10% of 200).
+*   **Smart Input Validation**: Prevents crashes if a user accidentally types text instead of a number.
+*   **Crash Protection**: Safeguards against math rule violations like dividing by zero.
+
+## 🛠️ Supported Operations
+
+*   `+` : Addition
+*   `-` : Subtraction
+*   `*` : Multiplication
+*   `/` : Division
+*   `%` : Percentage
+
+## 💻 How To Run
+
+1. Make sure you have **Python 3** installed on your computer.
+2. Save the code into a file named `calculator.py`.
+3. Open your terminal or command prompt.
+4. Run the following command:
+
+```bash
+python calculator.py
+```
+
+## 📝 How It Works (Code Architecture)
+
+*   **Modular Design**: Every math operation is assigned to its own dedicated function (`add`, `subtract`, etc.).
+*   **Dictionary Mapping**: Instead of using long `if/elif` statements, the script uses a Python dictionary to map symbols (`+`, `-`) directly to functions for cleaner, faster execution.
+*   **State Management**: Uses a global variable `previous_answer` to safely track your session history for chained calculations.
+
 
 ---
-*More projects coming soon — calculator app, number guessing game, and data analysis tools.*
+*More projects coming soon —  number guessing game, and data analysis tools.*
