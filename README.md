@@ -83,6 +83,40 @@ python calculator.py
 *   **Dictionary Mapping**: Instead of using long `if/elif` statements, the script uses a Python dictionary to map symbols (`+`, `-`) directly to functions for cleaner, faster execution.
 *   **State Management**: Uses a global variable `previous_answer` to safely track your session history for chained calculations.
 
+# Ultimate Coin Toss Game
+
+A fun, interactive, command-line coin toss game built with Python. Test your luck against the computer, track your score, and play as many rounds as you want!
+
+## 🚀 Features
+
+* **Continuous Gameplay:** Play multiple rounds seamlessly without restarting the program.
+* **Interactive Guessing:** Guess either `head` or `tail` before each flip.
+* **Live Score Keeping:** Tracks both player and computer scores dynamically.
+* **Input Validation:** Safely handles typos and case-insensitive inputs (e.g., "HEAD", "y", "  N ").
+
+## 🛠️ Requirements
+
+* **Python 3.x** (Uses Python's built-in `random` module, no external installations required)
+
+## 🎮 How to Play
+
+1. Run the Python script in your terminal.
+2. Type `y` when asked if you want to toss the coin.
+3. Enter your guess: `head` or `tail`.
+4. Check the result! Correct guesses award you a point, while incorrect guesses award a point to the computer.
+5. Type `n` at the start of any round to quit and view your final score summary.
+
+## 📦 Installation & Running
+
+1. Clone or download the script file (e.g., `coin_toss.py`).
+2. Open your terminal or command prompt.
+3. Navigate to the directory containing the file and run:
+   ```bash
+   python coin_toss.py
+   ```
+
+## 📜 License
+This project is open-source and free to use or modify.
 
 ---
 *More projects coming soon —  number guessing game, and data analysis tools.*
