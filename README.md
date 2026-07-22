@@ -1,126 +1,142 @@
-# Python Projects
+# 🐍 Python Projects
 
-A collection of beginner-to-intermediate Python projects built in Google Colab, demonstrating core programming concepts including functions, user input handling, and conditional logic.
+A collection of beginner-to-intermediate Python projects built with Python 3 and Google Colab/Jupyter Notebook.
 
----
-
-## Projects
-### 1. Functions.ipynb — Utility & Core Logic Library
-A modular collection of robust, production-ready Python functions focused on algorithmic problem solving, clean code architecture, and interactive control flows.
+These projects demonstrate practical programming fundamentals including functions, conditionals, loops, user input, input validation, error handling, data structures, and basic program architecture.
 
 ---
 
-(1)  🔢 Mathematical Logic: `greatest_number(a, b, c)`
-A deterministic utility function designed to accurately identify and isolate the maximum value out of three integer inputs.
+## 📂 Projects
 
-* **Architectural Purpose:** Handles multi-variable comparisons efficiently without relying on Python's built-in `max()` function, demonstrating custom algorithmic routing.
-* **Core Engineering Concepts:** Multi-branch conditionals (`if-elif-else`), logical evaluation operators, and deterministic execution paths.
-* **Interviewer Takeaway (Edge-Case Handling):** 
-  * Designed to safely handle duplicate entries (e.g., if $a = b > c$).
-  * Implements strict short-circuit evaluation logic to minimize CPU cycles during comparison checks.
+### 1. `Functions.ipynb` — Core Python Functions
 
----
+A collection of Python programs designed to practice reusable functions, logical problem-solving, user interaction, and basic program structure.
 
-(2) 🪙 Interactive Simulation: `play_coin_toss()`
-A stateful, terminal-based simulation engine that creates a live user-versus-computer gaming session.
+#### 🔢 Mathematical Logic — `greatest_number(a, b, c)`
 
-* **Architectural Purpose:** Emulates real-world application cycles where the system must handle unpredictable user inputs while keeping track of score statistics in real time.
-* **Core Engineering Concepts:** Pseudo-randomization via `random.choice()`, un-bounded iterative loops (`while True`), local mutation for score tracking, and explicit break state conditions.
-* ** (Clean Code Practices):**
-  * **Defensive Input Sanitization:** Utilizes `.strip().lower()` to gracefully normalize human inputs, mitigating issues caused by trailing spaces or unexpected capitalization.
-  * **Guard Clauses:** Includes explicit verification arrays (`if guess not in ["head", "tail"]`) to filter out invalid entries early, preventing corrupted runtime states without breaking the loop execution.
-  * **Encapsulation:** Keeps score statistics locally scoped within the active frame, preventing global variable pollution and ensuring the function remains highly modular and easily testable.
+A function that determines the greatest value among three numbers using conditional logic.
+
+**Concepts demonstrated:**
+- Functions and parameters
+- `if-elif-else` statements
+- Comparison and logical operators
+- Handling equal values
+- Returning calculated results
 
 ---
 
-#### 🛠️ High-Level Technical Summary
-* **State Management:** Employs precise mutable counters to track and persist live application states (user vs. computer score) across asynchronous game iterations.
-* **Resilience:** Built with zero external dependencies, leveraging native standard libraries to ensure lightweight execution and fast load times.
+#### 🪙 Interactive Simulation — `play_coin_toss()`
 
-(3)### 📊 Domain-Specific Metric Engine: `calculate_bciit_semester_percentage()`
+A simple interactive coin-toss game where the user plays against a computer-generated result and keeps track of the score.
 
-An advanced academic evaluation architecture custom-tailored to handle the real-world grading constraints of the Guru Gobind Singh Indraprastha University (GGSIPU) syllabus followed at BCIIT. 
+**Concepts demonstrated:**
+- `random.choice()`
+- `while` loops
+- User input handling
+- `.strip()` and `.lower()` for input normalization
+- Input validation
+- Conditional logic
+- Score tracking
+- `break` statements
+- Local variables and function scope
 
-#### ⚙️ Engineering Principles & System Logic
-* **Dynamic Data Modeling:** Decouples core subject codes from the execution loops by mapping individual 1st-year papers natively within a key-value dictionary data structure.
-* **Bi-Tier Weight Distribution:** Emplements strict boundary routing logic to separate and track independent academic rules—capping internal assessments at 40 marks and external end-term exams at 60 marks.
-* **Defensive Error Handling:** Uses integrated exception validation parameters to continuously monitor user runtime keystrokes, completely isolating the program from crashing if string characters are passed instead of floats or integers.
-* **Automated Logic Parsing:** Runs an active conditional analysis engine during processing to automatically determine passing statuses, allocate letter grade symbols, flag potential semester backlogs, and format final aggregates to a precise decimal truncation.
+**Clean Code Practices:**
+- Invalid inputs are handled without crashing the program.
+- User input is normalized to make the program more flexible.
+- Game logic and score tracking are contained within the function.
 
+---
 
-🚀 **Planned Enhancements:** Algorithmic optimizations including prime verification algorithms, recursive factorial tracking, and localized string palindrome checkers.
+#### 📊 Academic Percentage Calculator — `calculate_bciit_semester_percentage()`
 
+A Python-based calculator designed to calculate semester performance using subject marks and academic evaluation rules.
 
-# 2. `temperature_converter.ipynb` — Interactive Temperature Converter
-A standalone utility application that provides an interactive interface for temperature conversion.
+**Concepts demonstrated:**
+- Dictionaries for storing subject data
+- Functions and reusable logic
+- User input handling
+- Input validation
+- `try-except` error handling
+- Conditional statements
+- Grade calculation
+- Pass/fail status checking
+- Backlog detection
+- Formatted numerical output
+
+The project demonstrates how Python can be used to model real-world academic calculations and automate repetitive evaluation tasks.
+
+---
+
+### 2. `temperature_converter.ipynb` — Temperature Converter
+
+An interactive temperature conversion program that converts values between Celsius and Fahrenheit.
 
 **Features:**
-- Accepts user input for temperature value and source unit
-- Validates input and handles invalid entries
-- Converts between Celsius and Fahrenheit with precise formula application
-- Displays formatted output with unit labels
+- Accepts temperature values from the user
+- Accepts the source temperature unit
+- Validates user input
+- Handles invalid entries
+- Uses standard temperature conversion formulas
+- Displays formatted results with appropriate units
 
-**Concepts demonstrated:** User input handling, input validation, error handling, formatted string output.
-
-## Tech Stack
-- **Language:** Python 3
-- **Environment:** Google Colab / Jupyter Notebook
-- **Libraries:** Built-in functions only (no external dependencies)
-
-## How to Run
-1. Clone this repository
-2. Open any `.ipynb` file in Google Colab or Jupyter Notebook
-3. Run all cells sequentially (`Runtime` → `Run all` in Colab)
-
- ## What I'm Learning
-**Current Focus:**
-- Core Python programming (functions, conditionals, input handling) — practiced via Google Colab on Android
-- Writing clean, reusable code with proper documentation
-- Structuring small projects for clarity and scalability
-
-**Academic Path:** Pursuing BCA (Bachelor of Computer Applications)
-
-**Career Goal:** Building foundational skills toward a career in **Artificial Intelligence and Machine Learning**
-
-**Why this matters:** Every function I write here — from a temperature converter to a calculator — is deliberate practice in problem decomposition, logic building, and code organization. These fundamentals scale directly to larger AI/ML systems where clean data pipelines and modular functions are critical.
-# Advanced Python Calculator
-
-A terminal-based Python calculator that supports continuous calculations, decimal inputs, percentage operations, and memory storage to chain equations together.
-
-## 🚀 Features
-
-*   **Continuous Loop**: Keep calculating without restarting the program.
-*   **Memory Storage**: Option to use your last result as the starting number for the next math problem.
-*   **Percentage Support (`%`)**: Easily calculate percentages (e.g., finding 10% of 200).
-*   **Smart Input Validation**: Prevents crashes if a user accidentally types text instead of a number.
-*   **Crash Protection**: Safeguards against math rule violations like dividing by zero.
-
-## 🛠️ Supported Operations
-
-*   `+` : Addition
-*   `-` : Subtraction
-*   `*` : Multiplication
-*   `/` : Division
-*   `%` : Percentage
-
-## 💻 How To Run
-
-1. Make sure you have **Python 3** installed on your computer.
-2. Save the code into a file named `calculator.py`.
-3. Open your terminal or command prompt.
-4. Run the following command:
-
-```bash
-python calculator.py
-```
-
-## 📝 How It Works (Code Architecture)
-
-*   **Modular Design**: Every math operation is assigned to its own dedicated function (`add`, `subtract`, etc.).
-*   **Dictionary Mapping**: Instead of using long `if/elif` statements, the script uses a Python dictionary to map symbols (`+`, `-`) directly to functions for cleaner, faster execution.
-*   **State Management**: Uses a global variable `previous_answer` to safely track your session history for chained calculations.
-
-
+**Concepts demonstrated:**
+- User input handling
+- Functions
+- Conditional logic
+- Input validation
+- Error handling
+- Mathematical formulas
+- Formatted string output
 
 ---
-*More projects coming soon —  number guessing game, and data analysis tools.*
+
+### 3. `calculator.py` — Advanced Python Calculator
+
+A terminal-based calculator designed to practice functions, loops, input validation, and basic state management.
+
+**Features:**
+- Continuous calculations without restarting the program
+- Decimal number support
+- Percentage calculations
+- Previous-result functionality
+- Input validation
+- Division-by-zero protection
+- Multiple arithmetic operations
+
+#### 🛠️ Supported Operations
+
+| Operator | Operation |
+|----------|-----------|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `%` | Percentage |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3
+- **Environment:** Google Colab / Jupyter Notebook / VS Code
+- **Libraries:** Python Standard Library
+- **External Dependencies:** None
+
+---
+
+## ▶️ How to Run
+
+### Google Colab / Jupyter Notebook
+
+1. Open the `.ipynb` file in Google Colab or Jupyter Notebook.
+2. Run the cells sequentially.
+3. In Google Colab, use **Runtime → Run all**.
+
+### Python Script
+
+1. Install Python 3.
+2. Open the project in VS Code or a terminal.
+3. Run the Python file:
+
+```bash
+python filename.py
