@@ -10,7 +10,7 @@ A modular collection of robust, production-ready Python functions focused on alg
 
 ---
 
-#### 🔢 Mathematical Logic: `greatest_number(a, b, c)`
+(1)  🔢 Mathematical Logic: `greatest_number(a, b, c)`
 A deterministic utility function designed to accurately identify and isolate the maximum value out of three integer inputs.
 
 * **Architectural Purpose:** Handles multi-variable comparisons efficiently without relying on Python's built-in `max()` function, demonstrating custom algorithmic routing.
@@ -21,7 +21,7 @@ A deterministic utility function designed to accurately identify and isolate the
 
 ---
 
-#### 🪙 Interactive Simulation: `play_coin_toss()`
+(2) 🪙 Interactive Simulation: `play_coin_toss()`
 A stateful, terminal-based simulation engine that creates a live user-versus-computer gaming session.
 
 * **Architectural Purpose:** Emulates real-world application cycles where the system must handle unpredictable user inputs while keeping track of score statistics in real time.
@@ -36,6 +36,17 @@ A stateful, terminal-based simulation engine that creates a live user-versus-com
 #### 🛠️ High-Level Technical Summary
 * **State Management:** Employs precise mutable counters to track and persist live application states (user vs. computer score) across asynchronous game iterations.
 * **Resilience:** Built with zero external dependencies, leveraging native standard libraries to ensure lightweight execution and fast load times.
+
+  (3)### 📊 Domain-Specific Metric Engine: `calculate_bciit_semester_percentage()`
+
+An advanced academic evaluation architecture custom-tailored to handle the real-world grading constraints of the Guru Gobind Singh Indraprastha University (GGSIPU) syllabus followed at BCIIT. 
+
+#### ⚙️ Engineering Principles & System Logic
+* **Dynamic Data Modeling:** Decouples core subject codes from the execution loops by mapping individual 1st-year papers natively within a key-value dictionary data structure.
+* **Bi-Tier Weight Distribution:** Emplements strict boundary routing logic to separate and track independent academic rules—capping internal assessments at 40 marks and external end-term exams at 60 marks.
+* **Defensive Error Handling:** Uses integrated exception validation parameters to continuously monitor user runtime keystrokes, completely isolating the program from crashing if string characters are passed instead of floats or integers.
+* **Automated Logic Parsing:** Runs an active conditional analysis engine during processing to automatically determine passing statuses, allocate letter grade symbols, flag potential semester backlogs, and format final aggregates to a precise decimal truncation.
+
 
 🚀 **Planned Enhancements:** Algorithmic optimizations including prime verification algorithms, recursive factorial tracking, and localized string palindrome checkers.
 
