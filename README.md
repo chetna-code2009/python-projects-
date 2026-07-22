@@ -90,7 +90,7 @@ An interactive temperature conversion program that converts values between Celsi
 
 ---
 
-### 3. `calculator.py` — Advanced Python Calculator
+### 3. `calculator.ipynb` — Advanced Python Calculator
 
 A terminal-based calculator designed to practice functions, loops, input validation, and basic state management.
 
