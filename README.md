@@ -37,7 +37,7 @@ A stateful, terminal-based simulation engine that creates a live user-versus-com
 * **State Management:** Employs precise mutable counters to track and persist live application states (user vs. computer score) across asynchronous game iterations.
 * **Resilience:** Built with zero external dependencies, leveraging native standard libraries to ensure lightweight execution and fast load times.
 
-  (3)### 📊 Domain-Specific Metric Engine: `calculate_bciit_semester_percentage()`
+(3)### 📊 Domain-Specific Metric Engine: `calculate_bciit_semester_percentage()`
 
 An advanced academic evaluation architecture custom-tailored to handle the real-world grading constraints of the Guru Gobind Singh Indraprastha University (GGSIPU) syllabus followed at BCIIT. 
 
