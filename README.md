@@ -176,7 +176,8 @@ This project demonstrates how Python can be used to build a practical command-li
 1. Install Python 3.
 2. Open the project folder in VS Code or a terminal.
 3. Run the Python file:
-```bash python filename.py```
+```bash
+python filename.py```
 
 
 ## 🎯 LEARNING PROGRESS
@@ -185,15 +186,15 @@ These projects represent my progression from Python fundamentals to building int
 
 ### Skills Practiced
 
-.🐍 Python fundamentals
-.🔧 Functions
-.🔁 Loops
-.🧠 Conditional logic
-.📚 Lists and dictionaries
-.⌨ User input
-.🛡 Input validation
-.⚠ Exception handling
-.✨ String formatting
-.💻 Interactive programs
-.🏗 Basic program architecture
-.🔗 Git and GitHub workflow
+-🐍 Python fundamentals
+-🔧 Functions
+-🔁 Loops
+-🧠 Conditional logic
+-📚 Lists and dictionaries
+-⌨ User input
+-🛡 Input validation
+-⚠ Exception handling
+-✨ String formatting
+-💻 Interactive programs
+-🏗 Basic program architecture
+-🔗 Git and GitHub workflow
