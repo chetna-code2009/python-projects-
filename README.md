@@ -1,8 +1,8 @@
 # 🐍 Python Projects
 
-A collection of beginner-to-intermediate Python projects built with Python 3 and Google Colab/Jupyter Notebook.
+A collection of Python projects built while learning and practicing Python programming.
 
-These projects demonstrate practical programming fundamentals including functions, conditionals, loops, user input, input validation, error handling, data structures, and basic program architecture.
+These projects cover programming fundamentals such as functions, loops, conditionals, user input, input validation, error handling, data structures, and basic program architecture.
 
 ---
 
@@ -12,90 +12,92 @@ These projects demonstrate practical programming fundamentals including function
 
 A collection of Python programs designed to practice reusable functions, logical problem-solving, user interaction, and basic program structure.
 
-#### 🔢 Mathematical Logic — `greatest_number(a, b, c)`
+#### 🔢 Greatest Number — `greatest_number(a, b, c)`
 
-A function that determines the greatest value among three numbers using conditional logic.
+A function that determines the greatest value among three numbers.
 
 **Concepts demonstrated:**
+
 - Functions and parameters
-- `if-elif-else` statements
-- Comparison and logical operators
+- `if-elif-else`
+- Comparison operators
+- Logical conditions
 - Handling equal values
-- Returning calculated results
+- Returning results
 
 ---
 
-#### 🪙 Interactive Simulation — `play_coin_toss()`
+#### 🪙 Coin Toss Game — `play_coin_toss()`
 
-A simple interactive coin-toss game where the user plays against a computer-generated result and keeps track of the score.
+An interactive coin-toss game where the user plays against a computer-generated result and keeps track of the score.
 
 **Concepts demonstrated:**
+
 - `random.choice()`
 - `while` loops
-- User input handling
-- `.strip()` and `.lower()` for input normalization
+- User input
 - Input validation
+- `.strip()` and `.lower()`
 - Conditional logic
 - Score tracking
-- `break` statements
-- Local variables and function scope
-
-**Clean Code Practices:**
-- Invalid inputs are handled without crashing the program.
-- User input is normalized to make the program more flexible.
-- Game logic and score tracking are contained within the function.
+- `break`
+- Function scope
 
 ---
 
 #### 📊 Academic Percentage Calculator — `calculate_bciit_semester_percentage()`
 
-A Python-based calculator designed to calculate semester performance using subject marks and academic evaluation rules.
+A Python program designed to calculate semester performance using subject marks and academic evaluation rules.
 
 **Concepts demonstrated:**
-- Dictionaries for storing subject data
-- Functions and reusable logic
-- User input handling
+
+- Dictionaries
+- Functions
+- User input
 - Input validation
-- `try-except` error handling
+- `try-except`
 - Conditional statements
 - Grade calculation
-- Pass/fail status checking
+- Pass/fail checking
 - Backlog detection
-- Formatted numerical output
+- Formatted output
 
-The project demonstrates how Python can be used to model real-world academic calculations and automate repetitive evaluation tasks.
+This project demonstrates how Python can be used to automate real-world academic calculations.
 
 ---
 
 ### 2. `temperature_converter.ipynb` — Temperature Converter
 
-An interactive temperature conversion program that converts values between Celsius and Fahrenheit.
+An interactive program that converts temperatures between Celsius and Fahrenheit.
 
 **Features:**
+
 - Accepts temperature values from the user
 - Accepts the source temperature unit
 - Validates user input
 - Handles invalid entries
-- Uses standard temperature conversion formulas
-- Displays formatted results with appropriate units
+- Uses standard conversion formulas
+- Displays formatted results
 
 **Concepts demonstrated:**
-- User input handling
+
 - Functions
+- User input
 - Conditional logic
 - Input validation
 - Error handling
 - Mathematical formulas
-- Formatted string output
+- Formatted strings
 
 ---
 
-### 3. `calculator.ipynb` — Advanced Python Calculator
+### 3. `calculator.ipynb` — Python Calculator
 
-A terminal-based calculator designed to practice functions, loops, input validation, and basic state management.
+An interactive calculator designed to practice functions, loops, input validation, and basic program logic.
 
 **Features:**
-- Continuous calculations without restarting the program
+
+- Continuous calculations
 - Decimal number support
 - Percentage calculations
 - Previous-result functionality
@@ -112,6 +114,43 @@ A terminal-based calculator designed to practice functions, loops, input validat
 | `*` | Multiplication |
 | `/` | Division |
 | `%` | Percentage |
+
+---
+
+### 4. `expense_tracker.py` — Expense Tracker
+
+A terminal-based expense tracking application that allows users to add, view, and delete expenses.
+
+The program uses Python data structures and a menu-driven interface to manage expense records.
+
+#### 💰 Features
+
+- Add new expenses
+- Store expense categories
+- Store expense amounts
+- View recorded expenses
+- Delete expenses by number
+- Input validation
+- Error handling
+- Menu-driven interaction
+- Formatted expense display
+
+#### 🛠️ Concepts Demonstrated
+
+- Functions
+- Lists
+- Dictionaries
+- `while` loops
+- `if-elif-else`
+- User input
+- `try-except`
+- Input validation
+- `enumerate()`
+- String formatting
+- Function scope
+- Basic program architecture
+
+This project demonstrates how Python can be used to build a practical command-line application.
 
 ---
 
@@ -135,8 +174,27 @@ A terminal-based calculator designed to practice functions, loops, input validat
 ### Python Script
 
 1. Install Python 3.
-2. Open the project in VS Code or a terminal.
+2. Open the project folder in VS Code or a terminal.
 3. Run the Python file:
 
 ```bash
 python filename.py
+
+
+### 🎯🎯LEARNING PROGRESS
+
+These projects represent my progression from Python fundamentals to building interactive command-line applications.
+
+Skills Practiced
+Python fundamentals
+Functions
+Loops
+Conditional logic
+Lists and dictionaries
+User input
+Input validation
+Exception handling
+String formatting
+Interactive programs
+Basic program architecture
+Git and GitHub workflow
