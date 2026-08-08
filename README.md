@@ -177,7 +177,7 @@ This project demonstrates how Python can be used to build a practical command-li
 2. Open the project folder in VS Code or a terminal.
 3. Run the Python file:
 ```bash
-python filename.py```
+python filename.py
 
 
 ## 🎯 LEARNING PROGRESS
