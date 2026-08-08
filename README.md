@@ -185,15 +185,16 @@ These projects represent my progression from Python fundamentals to building int
 
 ### Skills Practiced
 
-  🐍 Python fundamentals  
-  🔧 Functions
-  🔁 Loops
-  🧠 Conditional logic
-  📚 Lists and dictionaries
-  ⌨ User input
-  🛡 Input validation
-  ⚠ Exception handling
-  ✨ String formatting
-  💻 Interactive programs
-  🏗 Basic program architecture
-  🔗 Git and GitHub workflow
+  🐍 Python fundamentals<br>    
+  🔧 Functions<br>
+  🔁 Loops<br>
+  🧠 Conditional logic<br>
+  📚 Lists and dictionaries<br>
+  ⌨ User input<br>
+  🛡 Input validation<br>
+  ⚠ Exception handling<br>
+  ✨ String formatting<br>
+  💻 Interactive programs<br>
+  🏗 Basic program architecture<br>
+  🔗 Git and GitHub workflow<br>
+  
