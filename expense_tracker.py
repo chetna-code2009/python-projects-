@@ -19,8 +19,8 @@ def view_expenses():
           print("\nNo expenses recorded.")
           return
      print("\n---Your Expenses---")
-     for index,expense in enumerate(expense,start=1):
-          print(f"{index}. Category: {expense['category']}, Amount: ₹{expense['amount']:.2f}") 
+     for index, expense in enumerate(expenses, start=1):
+          print(f"{index}. Category: {expense['category']}, Amount: ₹{expense['amount']:.2f}")
 
 def delete_expense():
      if not expenses:
@@ -32,8 +32,7 @@ def delete_expense():
          if 1 <= number <= len(expenses):
                 deleted_expense=expenses.pop(number-1)
                 print(f"Deleted expense: Category: {deleted_expense['category']}, Amount: ₹{deleted_expense['amount']:.2f}")
-
-         else: 
+         else:
                print("Invalid expense number.")
      except ValueError:
           print("Please enter a valid number.")
