@@ -185,7 +185,7 @@ These projects represent my progression from Python fundamentals to building int
 
 ### Skills Practiced
 
-  🐍 Python fundamentals<br>    
+  🐍 Python fundamentals<br>
   🔧 Functions<br>
   🔁 Loops<br>
   🧠 Conditional logic<br>
