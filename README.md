@@ -198,7 +198,7 @@ These projects represent my progression from Python fundamentals to building int
   🏗 Basic program architecture<br>
   🔗 Git and GitHub workflow<br>
 
-  # 📚 Student Management System
+ ## 5. 📚 Student Management System
 
 A beginner-friendly **Python Student Management System** created to practice and strengthen Python fundamentals through a practical project.
 
