@@ -84,25 +84,31 @@ def delete_student():
 
     print("Student not found.")
 
+    
 def update_student():
+    print("\n✏️ Update Student")
+
     try:
         roll_number = int(input("Enter student roll number to update: "))
     except ValueError:
-        print("Roll number must be a valid integer.")
+        print("❌ Roll number must be a valid integer.")
         return
 
     if roll_number <= 0:
-        print("Roll number must be a positive integer.")
+        print("❌ Roll number must be a positive integer.")
         return
 
     for student in students:
         if student["roll_number"] == roll_number:
+
             name = input(
-                "Enter new student name (leave blank to keep current): "
+                "Enter new student name "
+                "(leave blank to keep current): "
             ).strip()
 
             age_input = input(
-                "Enter new student age (leave blank to keep current): "
+                "Enter new student age "
+                "(leave blank to keep current): "
             ).strip()
 
             if name:
@@ -111,21 +117,21 @@ def update_student():
             if age_input:
                 try:
                     age = int(age_input)
-
-                    if age <= 0:
-                        print("Age must be a positive integer.")
-                        return
-
-                    student["age"] = age
-
                 except ValueError:
-                    print("Age must be a valid integer.")
+                    print("❌ Age must be a valid integer.")
                     return
 
-            print("Student updated successfully.")
+                if age <= 0:
+                    print("❌ Age must be a positive integer.")
+                    return
+
+                student["age"] = age
+
+            print("✅ Student updated successfully.")
             return
 
-        print("Student not found.") 
+    print("❌ Student not found.")
+ 
 
 def main():
     while True:
