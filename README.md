@@ -154,51 +154,7 @@ This project demonstrates how Python can be used to build a practical command-li
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Language:** Python 3
-- **Environment:** Google Colab / Jupyter Notebook / VS Code
-- **Libraries:** Python Standard Library
-- **External Dependencies:** None
-
----
-
-## ▶️ How to Run
-
-### Google Colab / Jupyter Notebook
-
-1. Open the `.ipynb` file in Google Colab or Jupyter Notebook.
-2. Run the cells sequentially.
-3. In Google Colab, use **Runtime → Run all**.
-
-### Python Script
-
-1. Install Python 3.
-2. Open the project folder in VS Code or a terminal.
-3. Run the Python file:
- ```bash python filename.py```
-
-
-## 🎯 LEARNING PROGRESS
-
-These projects represent my progression from Python fundamentals to building interactive command-line applications.
-
-### Skills Practiced
-
-  🐍 Python fundamentals<br>
-  🔧 Functions<br>
-  🔁 Loops<br>
-  🧠 Conditional logic<br>
-  📚 Lists and dictionaries<br>
-  ⌨ User input<br>
-  🛡 Input validation<br>
-  ⚠ Exception handling<br>
-  ✨ String formatting<br>
-  💻 Interactive programs<br>
-  🏗 Basic program architecture<br>
-  🔗 Git and GitHub workflow<br>
-
-  # 📚 Student Management System
+### 5. `student_management.py` — Student Management System
 
 A beginner-friendly **Python Student Management System** created to practice and strengthen Python fundamentals through a practical command-line application.
 
