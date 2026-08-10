@@ -27,14 +27,14 @@ def add_student():
             return
     student={'name':name,'age':age,'roll_number':roll_number}
     students.append(student) 
-    print("Student added successfully.➕😊")  
+    print("Student added successfully➕ψ(｀∇´)ψ")  
 
 def view_students():
     if not students:
         print("No students found.")
         return
 
-    print("List of students:^_^")
+    print("List of students^_^")
 
     for student in students:
         print(
@@ -84,7 +84,7 @@ def delete_student():
 
     print("Student not found.")
 
-    
+
 def update_student():
     print("\n✏️ Update Student")
 
