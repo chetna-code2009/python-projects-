@@ -107,13 +107,13 @@ An interactive calculator designed to practice functions, loops, input validatio
 
 #### 🛠️ Supported Operations
 
-| Operator | Operation |
-|----------|-----------|
-| `+` | Addition |
-| `-` | Subtraction |
-| `*` | Multiplication |
-| `/` | Division |
-| `%` | Percentage |
+| Operator | Operation      |
+| -------- | -------------- |
+| `+`      | Addition       |
+| `-`      | Subtraction    |
+| `*`      | Multiplication |
+| `/`      | Division       |
+| `%`      | Percentage     |
 
 ---
 
@@ -154,6 +154,131 @@ This project demonstrates how Python can be used to build a practical command-li
 
 ---
 
+### 5. `student_management.py` — Student Management System
+
+A beginner-friendly **Python Student Management System** created to practice and strengthen Python fundamentals through a practical command-line application.
+
+#### ✨ Features
+
+- ➕ Add Student
+- 👀 View All Students
+- 🔍 Search Student by Roll Number
+- ✏️ Update Student Details
+- 🗑️ Delete Student
+- 🚪 Exit Program
+- ✅ Prevent Duplicate Roll Numbers
+- 🛡️ Validate User Input
+- ⚠️ Handle Invalid Input with Error Handling
+
+#### 🧠 Concepts Demonstrated
+
+- Variables
+- Lists
+- Dictionaries
+- Functions
+- `if`, `elif`, `else`
+- `for` loops
+- `while` loops
+- `try` / `except`
+- Input validation
+- `append()`
+- `enumerate()`
+- `del`
+- f-strings
+- Dictionary access
+- List manipulation
+- Menu-driven programming
+
+#### 📋 Student Information
+
+Each student record contains:
+
+- 👤 Name
+- 🎂 Age
+- 🔢 Roll Number
+
+The **roll number is used as a unique ID** for each student.
+
+#### 🎮 How to Use
+
+After running the program, the following menu will appear:
+
+```text
+📚 Student Management System
+1. ➕ Add Student
+2. 👀 View Students
+3. 🔍 Search Student
+4. 🗑️ Delete Student
+5. ✏️ Update Student
+6. 🚪 Exit
+```
+
+Enter the number corresponding to the action you want to perform.
+
+**➕ Add Student**
+
+Enter the student's name, age, and roll number. The program validates the information and prevents duplicate roll numbers.
+
+**👀 View Students**
+
+Displays all students currently stored in the program.
+
+**🔍 Search Student**
+
+Searches for a student using their unique roll number.
+
+**✏️ Update Student**
+
+Allows the user to update the student's name and age.
+
+Leave a field blank if you want to keep the existing value.
+
+The roll number remains unchanged because it acts as the student's unique identifier.
+
+**🗑️ Delete Student**
+
+Removes a student from the system using their roll number.
+
+**🚪 Exit**
+
+Select option `6` to safely exit the program.
+
+#### 🛡️ Validation & Error Handling
+
+The program handles:
+
+- Empty student names
+- Invalid age input
+- Invalid roll number input
+- Negative or zero age
+- Negative or zero roll numbers
+- Duplicate roll numbers
+- Non-existent students during search
+- Non-existent students during update
+- Non-existent students during deletion
+- Invalid menu choices
+
+`try` / `except` is used to handle invalid numeric input without crashing the program.
+
+#### 🚀 Future Improvements
+
+- 💾 Save student data permanently using files
+- 🗄️ Connect the project to an SQL database
+- 📊 Add marks and grades
+- 📈 Add student performance reports
+- 🔐 Add user authentication
+- 📅 Add attendance management
+- 🔎 Add advanced search options
+- 🖥️ Build a graphical user interface
+
+#### 📌 Current Status
+
+**Completed ✅**
+
+The current version stores student data temporarily in memory, so all data is lost when the program is closed.
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3
@@ -176,113 +301,12 @@ This project demonstrates how Python can be used to build a practical command-li
 1. Install Python 3.
 2. Open the project folder in VS Code or a terminal.
 3. Run the Python file:
- ```bash python filename.py```
-
-
-## 🎯 LEARNING PROGRESS
-
-These projects represent my progression from Python fundamentals to building interactive command-line applications.
-
-### Skills Practiced
-
-  🐍 Python fundamentals<br>
-  🔧 Functions<br>
-  🔁 Loops<br>
-  🧠 Conditional logic<br>
-  📚 Lists and dictionaries<br>
-  ⌨ User input<br>
-  🛡 Input validation<br>
-  ⚠ Exception handling<br>
-  ✨ String formatting<br>
-  💻 Interactive programs<br>
-  🏗 Basic program architecture<br>
-  🔗 Git and GitHub workflow<br>
-
-  # 📚 Student Management System
-
-A beginner-friendly **Python Student Management System** created to practice and strengthen Python fundamentals through a practical project.
-
----
-
-## ✨ Features
-
-- ➕ Add Student
-- 👀 View All Students
-- 🔍 Search Student by Roll Number
-- ✏️ Update Student Details
-- 🗑️ Delete Student
-- 🚪 Exit Program
-- ✅ Prevent Duplicate Roll Numbers
-- 🛡️ Validate User Input
-- ⚠️ Handle Invalid Input with Error Handling
-
----
-
-## 🛠️ Technologies Used
-
-- 🐍 Python
-- 💻 VS Code
-- 🔗 Git & GitHub
-
----
-
-## 🧠 Python Concepts Practiced
-
-- Variables
-- Lists
-- Dictionaries
-- Functions
-- `if`, `elif`, `else`
-- `for` loops
-- `while` loops
-- `try` / `except`
-- Input validation
-- `append()`
-- `enumerate()`
-- `del`
-- f-strings
-- Dictionary access
-- List manipulation
-- Menu-driven programming
-
----
-
-## 📋 Student Information
-
-Each student record contains:
-
-- 👤 Name
-- 🎂 Age
-- 🔢 Roll Number
-
-The **roll number is used as a unique ID** for each student.
-
----
-
-## 📂 Project Structure
-
-```text
-Student Management System/
-│
-├── student_management.py
-└── README.md
-```
-
----
-
-## ▶️ How to Run
-
-### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+python filename.py
 ```
 
-### 2. Open the Project
-
-Open the project folder in **VS Code**.
-
-### 3. Run the Python File
+For the Student Management System:
 
 ```bash
 python student_management.py
@@ -290,119 +314,24 @@ python student_management.py
 
 ---
 
-## 🎮 How to Use
+## 🎯 Learning Progress
 
-After running the program, the following menu will appear:
+These projects represent my progression from Python fundamentals to building interactive command-line applications.
 
-```text
-📚 Student Management System
-1. ➕ Add Student
-2. 👀 View Students
-3. 🔍 Search Student
-4. 🗑️ Delete Student
-5. ✏️ Update Student
-6. 🚪 Exit
-```
+### Skills Practiced
 
-Enter the number corresponding to the action you want to perform.
-
-### ➕ Add Student
-
-Enter:
-
-- Student name
-- Student age
-- Student roll number
-
-The program checks the input and prevents duplicate roll numbers.
-
-### 👀 View Students
-
-Displays all students currently stored in the program.
-
-### 🔍 Search Student
-
-Enter a roll number to find a specific student.
-
-### ✏️ Update Student
-
-Enter the student's roll number and update their:
-
-- Name
-- Age
-
-Leave a field blank if you want to keep the existing value.
-
-The roll number cannot be changed because it acts as the student's unique identifier.
-
-### 🗑️ Delete Student
-
-Enter a student's roll number to remove them from the system.
-
-### 🚪 Exit
-
-Select option `6` to safely exit the program.
-
----
-
-## 🛡️ Validation & Error Handling
-
-The program handles:
-
-- Empty student names
-- Invalid age input
-- Invalid roll number input
-- Negative or zero age
-- Negative or zero roll numbers
-- Duplicate roll numbers
-- Non-existent students during search
-- Non-existent students during update
-- Non-existent students during deletion
-- Invalid menu choices
-
-`try` / `except` is used to handle invalid numeric input without crashing the program.
-
----
-
-## 🧠 What I Learned
-
-Through this project, I practiced:
-
-- Storing multiple records using a **list of dictionaries**
-- Creating and organizing functions
-- Using loops to process student records
-- Using conditions for validation
-- Handling errors with `try` / `except`
-- Searching through lists
-- Updating dictionary values
-- Adding and deleting list elements
-- Using `enumerate()` with lists
-- Using `append()` and `del`
-- Building a menu-driven program
-- Connecting multiple functions into one complete application
-
----
-
-## 🚀 Future Improvements
-
-- 💾 Save student data permanently using files
-- 🗄️ Connect the project to an SQL database
-- 📊 Add marks and grades
-- 📈 Add student performance reports
-- 🔐 Add user authentication
-- 📅 Add attendance management
-- 🔎 Add advanced search options
-- 🖥️ Build a graphical user interface
-
----
-
-## 📌 Current Status
-
-**Completed ✅**
-
-This project was created as part of my **Python learning and project-building journey**.
-
-The current version stores student data temporarily in memory, so all data is lost when the program is closed.
+- 🐍 Python fundamentals
+- 🔧 Functions
+- 🔁 Loops
+- 🧠 Conditional logic
+- 📚 Lists and dictionaries
+- ⌨️ User input
+- 🛡️ Input validation
+- ⚠️ Exception handling
+- ✨ String formatting
+- 💻 Interactive programs
+- 🏗️ Basic program architecture
+- 🔗 Git and GitHub workflow
 
 ---
 
@@ -411,4 +340,3 @@ The current version stores student data temporarily in memory, so all data is lo
 **Chetna**
 
 Learning Python, problem-solving, and software development through practical projects.
-  
