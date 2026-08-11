@@ -65,6 +65,8 @@ def search_student():
 
     print("Student not found.")
 
+    
+
 def delete_student():
     try:
         roll_number = int(input("Enter student roll number to delete: "))
