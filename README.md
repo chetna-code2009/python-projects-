@@ -336,7 +336,7 @@ Handles:
 
 # 📚 Python Concepts Studied
 
-My Python learning has covered both programming fundamentals and several Class 12 Computer Science topics.
+
 
 ### 🐍 Python Fundamentals
 
@@ -488,7 +488,7 @@ Functions                 🟢
 Lists / Tuples / Dicts    🟢
 Input & Validation        🟢
 Exception Handling        🟢
-File Handling              🟢
+File Handling             🟢
 CSV                       🟢
 Basic Data Structures     🟢
 SQL                       🟢
