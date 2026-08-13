@@ -11,8 +11,8 @@ def add_expense():
           }
           expenses.append(expense)
           print("expense added successfully")
-          more=input("do you want add another expense?(yes/no):").lower()
-          if more != "yes":
+          more=input("do you want add another expense?(y/n):").lower()
+          if more != "y":
               break
 def view_expenses():
      if not expenses:

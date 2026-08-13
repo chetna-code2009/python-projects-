@@ -7,8 +7,9 @@ def display_products():
     print(f"{'ID':<8}{'Product':<20}{'Price':>10}")
     print("-"*50)
     for product_id, product in products.items():
-     print(f"{product_id:<8}"f"{product['name']:<20}"f"{product['price']:>9}")
-     
+     print(f"{product_id:<8}{product['name']:<20}{product['price']:>9}")
+def add_to_cart():
+    
 
         
         
